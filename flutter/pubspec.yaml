@@ -1,0 +1,31 @@
+name: wound_tracker
+description: A simple app to capture wound data, generate a PDF, and share it.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI and image capture
+  image_picker: ^1.0.7
+
+  # File access and PDF creation
+  path_provider: ^2.1.3
+  pdf: ^3.10.4
+  printing: ^5.12.0
+
+  # Sharing to WhatsApp, email, etc.
+  share_plus: ^11.0.0
+
+  # Cupertino for iOS look-and-feel
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
